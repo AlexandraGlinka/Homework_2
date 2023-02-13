@@ -56,5 +56,14 @@ public class Main {
         System.out.println(diffWeightDeduct);
         var diffWeightDivision = boxer_2 % boxer_1;
         System.out.println(diffWeightDivision);
+        //задача 8
+        System.out.println("Задача 8");
+        var workTime = 640;
+        var workTimeEmployee = 8;
+        var countEmployee = workTime / workTimeEmployee;
+        System.out.println("Всего работников в компании — " + countEmployee + " человек");
+        countEmployee = countEmployee + 94;
+        System.out.println("Если в компании работает " + countEmployee + " человек, то всего "
+                + workTimeEmployee * countEmployee + " часов работы может быть поделено между сотрудниками");
     }
 }
