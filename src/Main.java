@@ -50,5 +50,11 @@ public class Main {
         System.out.println(totalWeight);
         var diffWeight = boxer_2 - boxer_1;
         System.out.println(diffWeight);
+        //задача 7
+        System.out.println("Задача 7");
+        var diffWeightDeduct = boxer_2 - boxer_1;
+        System.out.println(diffWeightDeduct);
+        var diffWeightDivision = boxer_2 % boxer_1;
+        System.out.println(diffWeightDivision);
     }
 }
